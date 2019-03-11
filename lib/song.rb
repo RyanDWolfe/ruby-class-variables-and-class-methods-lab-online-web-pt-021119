@@ -16,15 +16,15 @@ class Song
   end
 
   def count
-    @song_count
+    @@count
   end
 
   def artists
-    artists
+    @@artists.uniq
   end
 
   def genres
-    genres
+    @@genres.uniq
   end
 
 
